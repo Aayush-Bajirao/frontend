@@ -27,16 +27,24 @@ export default function Login() {
             <div class="sign-in-div">
               <h1>Login</h1>
               <input type="email" placeholder="Email" />
+              <img class="email-placeholder" src="icon.png" />
+              <p class="email-error-msg">Check Email</p>
               <input type="password" placeholder="Password"></input>
+              <img class="pass-placeholder" src="lock.png" />
+              <p class="pass-error-msg">Check Password</p>
             </div>
           )}
           {activeForm === "signUp" && (
             <div class="sign-up-div">
               <h1>Register</h1>
               <input type="text" placeholder="Name" />
+              <img class="name-placeholder" src="Frame 1036.png" />
               <input type="email" placeholder="Email" />
+              <img class="email-placeholder1" src="icon.png" />
               <input type="password" placeholder="Password"></input>
+              <img class="pass-placeholder1" src="lock.png" />
               <input type="password" placeholder="Confirm Password"></input>
+              <img class="pass-placeholder2" src="lock.png" />
             </div>
           )}
           <button
