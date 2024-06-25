@@ -1,0 +1,45 @@
+.analytics-wrapper {
+    margin: 28px 0px 0px 57px;
+}
+
+.analytics-wrapper h1 {
+    font-weight: 600;
+    line-height: 29.96px;
+    text-align: left;
+    margin: 10px 10px;
+}
+
+
+
+.analytics {
+    display: flex;
+    padding: 20px;
+}
+
+.subclass {
+    background: #F9FCFF;
+}
+
+.subclass img {
+    width: 12px;
+    height: 12px;
+}
+
+.subclass p {
+    margin: 0px;
+    line-height: 12px;
+}
+
+.subclass div {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.sub-subclass {
+    width: 213px;
+}
+
+.subclass div div {
+    margin: 0px;
+}

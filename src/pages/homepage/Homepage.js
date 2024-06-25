@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
-
+import Analytics from "../analytics/Analytics";
 import "./Homepage.css";
+import Board from "../board/Board";
 
 export default function Homepage() {
   return (
@@ -10,7 +11,9 @@ export default function Homepage() {
         <div class="navbar">
           <Navbar />
         </div>
-        <div class="board">board</div>
+        <div class="board">
+          <Board />
+        </div>
       </div>
     </div>
   );
